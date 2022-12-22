@@ -1,0 +1,10 @@
+.head {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.head img {
+  height: 1.5rem;
+}
