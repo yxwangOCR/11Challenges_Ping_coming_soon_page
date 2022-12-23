@@ -51,14 +51,28 @@
   align-items: center;
 }
 
-.main .input-wrapper input {
+.main .input-wrapper .input-block .input-items .no-error-border {
   width: 80%;
   padding: 15px 20px;
   font-size: 1rem;
   border-radius: 25px;
+  background-color: hsl(0, 0%, 59%, 0.1);
+  color: black;
   border: none;
-  background-color: hsl(0, 0%, 59%);
-  opacity: 20%;
+}
+
+.main .input-wrapper .input-block .input-items .error-border {
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 59%, 0.1);
+  color: black;
+  border: 2px solid red;
+}
+
+.main .input-wrapper .no-error {
+  display: none;
 }
 
 .main .input-wrapper .error {
