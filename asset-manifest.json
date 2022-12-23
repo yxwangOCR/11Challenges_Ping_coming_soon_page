@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/11Challenges_Ping_coming_soon_page/static/css/main.1a90a33f.css",
-    "main.js": "/11Challenges_Ping_coming_soon_page/static/js/main.c6a808ec.js",
+    "main.css": "/11Challenges_Ping_coming_soon_page/static/css/main.84ee1e40.css",
+    "main.js": "/11Challenges_Ping_coming_soon_page/static/js/main.51abf19d.js",
     "static/media/illustration-dashboard.png": "/11Challenges_Ping_coming_soon_page/static/media/illustration-dashboard.f9aaf3db81c10cfaff45.png",
     "static/media/logo.svg": "/11Challenges_Ping_coming_soon_page/static/media/logo.7e09371f05c7e00fddccee34a9deac87.svg",
     "index.html": "/11Challenges_Ping_coming_soon_page/index.html",
-    "main.1a90a33f.css.map": "/11Challenges_Ping_coming_soon_page/static/css/main.1a90a33f.css.map",
-    "main.c6a808ec.js.map": "/11Challenges_Ping_coming_soon_page/static/js/main.c6a808ec.js.map"
+    "main.84ee1e40.css.map": "/11Challenges_Ping_coming_soon_page/static/css/main.84ee1e40.css.map",
+    "main.51abf19d.js.map": "/11Challenges_Ping_coming_soon_page/static/js/main.51abf19d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a90a33f.css",
-    "static/js/main.c6a808ec.js"
+    "static/css/main.84ee1e40.css",
+    "static/js/main.51abf19d.js"
   ]
 }
