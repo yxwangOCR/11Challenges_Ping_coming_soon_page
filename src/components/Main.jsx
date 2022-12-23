@@ -33,6 +33,7 @@ const Main = () => {
         <p>Subscribe and get notified</p>
         <form className='input-block' onSubmit={handleEmail}>
           <div className='input-items'>
+            <label for='email'></label>
             <input
               name={email}
               value={email}
@@ -40,9 +41,7 @@ const Main = () => {
               type={email}
               className={error ? "error-border" : "no-error-border"}
             />
-            <label className={error ? "error" : "no-error"} for={email}>
-              {error}
-            </label>
+            <div className={error ? "error" : "no-error"}>{error}</div>
           </div>
           <button>Notify Me</button>
         </form>
