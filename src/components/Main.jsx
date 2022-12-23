@@ -35,10 +35,11 @@ const Main = () => {
           <div className='input-items'>
             <label for='email'></label>
             <input
-              name={email}
+              name='email'
+              id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              type={email}
+              type='email'
               className={error ? "error-border" : "no-error-border"}
             />
             <div className={error ? "error" : "no-error"}>{error}</div>
