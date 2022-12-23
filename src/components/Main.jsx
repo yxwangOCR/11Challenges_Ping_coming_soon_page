@@ -24,7 +24,7 @@ const Main = () => {
   };
 
   return (
-    <div className='main'>
+    <main className='main'>
       <div className='input-wrapper'>
         <h1>
           <span>We are launching</span>
@@ -45,7 +45,7 @@ const Main = () => {
         </form>
       </div>
       <img src={Dashboard} alt='Dashboard' />
-    </div>
+    </main>
   );
 };
 

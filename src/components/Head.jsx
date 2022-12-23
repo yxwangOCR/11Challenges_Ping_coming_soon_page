@@ -4,9 +4,9 @@ import Logo from "../images/logo.svg";
 
 const Head = () => {
   return (
-    <div className='head'>
+    <header className='head'>
       <img src={Logo} alt='Ping' />
-    </div>
+    </header>
   );
 };
 
