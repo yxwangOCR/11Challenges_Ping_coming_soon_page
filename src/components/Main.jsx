@@ -30,13 +30,15 @@ const Main = () => {
           <span>We are launching</span>
           soon!
         </h1>
-        <p>Subscribe and get notified</p>
+        <h2>Subscribe and get notified</h2>
         <form className='input-block' onSubmit={handleEmail}>
           <div className='input-items'>
-            <label for='email'></label>
+            <label htmlFor='email' className='sr-only'>
+              Email
+            </label>
             <input
               name='email'
-              id="email"
+              id='email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               type='email'
@@ -44,7 +46,7 @@ const Main = () => {
             />
             <div className={error ? "error" : "no-error"}>{error}</div>
           </div>
-          <button>Notify Me</button>
+          <button type='submit'>Notify Me</button>
         </form>
       </div>
       <img src={Dashboard} alt='Dashboard' />

@@ -12,6 +12,11 @@
   align-items: center;
   margin: 0 5rem;
   gap: 1rem;
+  list-style: none;
+}
+
+.footer .icons a {
+  text-decoration: none;
 }
 
 .footer .icons .fa-brands {
