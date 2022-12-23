@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-top: 2rem;
 }
 
 .main .input-wrapper {
@@ -20,7 +21,7 @@
   text-align: center;
   font-weight: 700;
   letter-spacing: 2px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .main .input-wrapper h1 span {
@@ -52,7 +53,7 @@
 
 .main .input-wrapper input {
   width: 80%;
-  padding: 15px 1rem;
+  padding: 15px 20px;
   font-size: 1rem;
   border-radius: 25px;
   border: none;
@@ -74,7 +75,7 @@
   color: white;
   border: none;
   padding: 15px 20px;
-  width: 80%;
+  width: 90%;
   border-radius: 25px;
   -webkit-box-shadow: 2px 2px 9px 1px #5f5c5c;
   box-shadow: 2px 2px 9px 1px #5f5c5c;
