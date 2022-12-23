@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/11Challenges_Ping_coming_soon_page/static/css/main.b31e5ad5.css",
-    "main.js": "/11Challenges_Ping_coming_soon_page/static/js/main.5e432bbc.js",
+    "main.js": "/11Challenges_Ping_coming_soon_page/static/js/main.aaf7367d.js",
     "static/media/illustration-dashboard.png": "/11Challenges_Ping_coming_soon_page/static/media/illustration-dashboard.f9aaf3db81c10cfaff45.png",
     "static/media/logo.svg": "/11Challenges_Ping_coming_soon_page/static/media/logo.7e09371f05c7e00fddccee34a9deac87.svg",
     "index.html": "/11Challenges_Ping_coming_soon_page/index.html",
     "main.b31e5ad5.css.map": "/11Challenges_Ping_coming_soon_page/static/css/main.b31e5ad5.css.map",
-    "main.5e432bbc.js.map": "/11Challenges_Ping_coming_soon_page/static/js/main.5e432bbc.js.map"
+    "main.aaf7367d.js.map": "/11Challenges_Ping_coming_soon_page/static/js/main.aaf7367d.js.map"
   },
   "entrypoints": [
     "static/css/main.b31e5ad5.css",
-    "static/js/main.5e432bbc.js"
+    "static/js/main.aaf7367d.js"
   ]
 }
