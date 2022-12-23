@@ -34,12 +34,15 @@ const Main = () => {
         <form className='input-block' onSubmit={handleEmail}>
           <div className='input-items'>
             <input
+              name={email}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              type='email'
+              type={email}
               className={error ? "error-border" : "no-error-border"}
             />
-            <div className={error ? "error" : "no-error"}>{error}</div>
+            <label className={error ? "error" : "no-error"} for={email}>
+              {error}
+            </label>
           </div>
           <button>Notify Me</button>
         </form>

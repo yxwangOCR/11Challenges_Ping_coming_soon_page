@@ -93,7 +93,6 @@
   padding: 15px 20px;
   width: 90%;
   border-radius: 25px;
-  -webkit-box-shadow: 2px 2px 9px 1px #5f5c5c;
   box-shadow: 2px 2px 9px 1px #5f5c5c;
 }
 .input-wrapper button:hover {
