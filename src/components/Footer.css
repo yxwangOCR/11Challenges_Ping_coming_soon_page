@@ -26,6 +26,12 @@
   justify-content: center;
   align-items: center;
 }
+.footer .icons .fa-brands:hover {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border: 1.5px solid hsl(223, 87%, 63%);
+  cursor: pointer;
+}
 
 .footer p {
   color: hsl(240, 6%, 50%);

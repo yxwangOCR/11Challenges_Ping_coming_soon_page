@@ -8,3 +8,9 @@
 .head img {
   height: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  .head {
+    height: 10rem;
+  }
+}

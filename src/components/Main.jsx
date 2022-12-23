@@ -11,10 +11,13 @@ const Main = () => {
           soon!
         </h1>
         <p>Subscribe and get notified</p>
-
-        <input type='email' required />
-        <div className="error"></div>
-        <button>Notify Me</button>
+        <div className='input-block'>
+          <div className='input-items'>
+            <input type='email' required />
+            <div className='error'>Please provide a valid email address</div>
+          </div>
+          <button>Notify Me</button>
+        </div>
       </div>
       <img src={Dashboard} alt='Dashboard' />
     </div>
